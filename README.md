@@ -12,33 +12,54 @@ This dataset contain some medical information of patients which tells whether th
 
 #### Methodology
 The Techniques Expected to Use
-  Data Analysis
-  Data Preparation
-  ML Models
-  Logistic Regression
-  K-Nearest Neighbour
-  Decision Tree
-  Support Vector Machine
+> Data Analysis
+
+> Data Preparation
+
+> ML Models
+
+> Logistic Regression
+
+> K-Nearest Neighbour
+
+> Decision Tree
+
+> Support Vector Machine
 
 
 #### Results
 Following are the factors contributing to heart disease
 
 currentSmoker
+
 cigsPerDay
+
 prevalentHyp
+
 sysBP
+
 diaBP
+
 glucose
-Model Accuracy
+
+ 
+#### Model Accuracy
+
 
 Logistic Regression 84.669811
+
 Naive Bayes 81.957547
+
 Random Forest 83.726415
+
 Extreme Gradient Boost 83.726415
+
 K-Nearest Neighbour 83.962264
+
 Decision Tree 82.193396
+
 Support Vector Machine 84.551887
+
 Looking at the model accuracy score, Logistic Regression performed the best for this dataset.
 
 Ensembling using StackingCVClassifier did not affect the model performance significantly.
